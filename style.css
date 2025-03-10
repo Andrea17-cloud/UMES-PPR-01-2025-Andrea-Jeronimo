@@ -1,0 +1,57 @@
+nav{
+    background-color: white;
+    display: flex;
+    height: 10vh;
+    margin: 0;
+    box-shadow: -5px 0px 15px;
+    border-bottom: black 1px solid;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+nav div{
+    display: flex;
+    width: 50%;
+    gap: 10px;
+    margin: 0;
+}
+
+nav div img{
+    border-radius: 10px;
+    height: 10vh;
+    margin: 0;
+}
+
+.div2{
+    justify-content: end;
+}
+
+body{
+    background-color: #e0e0e0;
+    margin:0;
+}
+
+.parrafo{
+    margin-top: 10vh;
+}
+
+nav:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+
+}
+
+footer p{
+    padding: 5px;
+}
